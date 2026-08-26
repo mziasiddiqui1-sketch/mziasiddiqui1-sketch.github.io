@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ToolNest offers fast, free online calculators, text tools, converters and utilities.">
+<meta name="keywords" content="online tools, calculators, text tools, converters, password generator, QR generator">
+<title>ToolNest — Free Online Tools</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="nav wrap">
+    <a class="brand" href="#">Tool<span>Nest</span></a>
+    <div class="navlinks"><a href="#tools">Tools</a><a href="#about">About</a><button id="themeBtn" class="iconbtn" aria-label="Toggle theme">🌙</button></div>
+  </nav>
+  <div class="heroContent wrap">
+    <div class="badge">⚡ Fast • Free • No registration</div>
+    <h1>Simple tools for everyday tasks.</h1>
+    <p>Calculators, converters, text utilities and more — all in one place.</p>
+    <a class="primary" href="#tools">Explore tools</a>
+  </div>
+</header>
+
+<main class="wrap">
+<section id="tools" class="toolsSection">
+  <div class="sectionHead"><div><span class="eyebrow">TOOLBOX</span><h2>All tools</h2></div><input id="search" class="search" placeholder="Search tools..." autocomplete="off"></div>
+  <div class="chips">
+    <button class="chip active" data-cat="all">All</button><button class="chip" data-cat="math">Math</button><button class="chip" data-cat="text">Text</button><button class="chip" data-cat="utility">Utility</button><button class="chip" data-cat="security">Security</button>
+  </div>
+  <div id="toolGrid" class="grid"></div>
+  <p class="muted privacyNote">Your calculation history and file records are stored locally in this browser. ToolNest does not upload them to a server.</p>
+</section>
+
+<section id="toolPanel" class="panel" aria-live="polite"></section>
+
+<section id="about" class="about">
+  <span class="eyebrow">ABOUT TOOLNEST</span><h2>Useful tools without unnecessary steps.</h2>
+  <p>ToolNest is a browser-based toolbox. Most calculations happen locally in your browser, so you can use them quickly without creating an account.</p>
+  <div class="infoGrid"><div><b>⚡ Fast</b><span>Lightweight pages and instant results.</span></div><div><b>🔒 Private by design</b><span>Most tools process data locally.</span></div><div><b>📱 Responsive</b><span>Works on desktop and mobile screens.</span></div></div>
+</section>
+
+<section id="privacy" class="legal"><h2>Privacy</h2><p>ToolNest's built-in calculators and text utilities generally process input in your browser. If third-party services are added later, their respective privacy policies may apply.</p></section>
+<section id="contact" class="legal">
+  <h2>Contact Us</h2>
+  <p>If you need help or have any questions, contact us by email:</p>
+  <p>
+    <a href="mailto:mziasiddiqui1@gmail.com">mziasiddiqui1@gmail.com</a>
+  </p>
+</section>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer><div class="wrap">ToolNest © 2026 · Free online tools</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
